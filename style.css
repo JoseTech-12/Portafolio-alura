@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #021526;
+    --colorsegundario: #03346E;
+}
+
+body {
+    line-height: 1.6;
+    color: white;
+}
+
+header {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 20px;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu--items {
+    padding: 15px;
+
+}
+
+.menu--items:hover {
+    border-bottom: 1px solid white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    align-items: center;
+    padding: 1.6rem;
+    font-size: 1.5rem;
+    gap: 30px;
+}
+
+.img-persona {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.5rem;
+    width: 50%;
+   
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.redes-sociales {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 15px;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img-redes {
+    width: 30px;
+}
+
+.redes-sociales:hover {
+    background-color: #FBFBFB;
+    color: #021526;
+}
+.Sobre-mi{
+    display: flex;
+    background-color: var(--colorsegundario);
+    padding: 2rem;
+    font-size: 1.5rem;    
+    color: white;
+    
+    
+}
+
+.sobre-mi-info{
+    margin-top: 30px;
+    width: 77%;
+    margin: 0 auto;
+}
+.conten-skills{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+   justify-content: center;
+   
+}
+h4{
+    font-size: 1.3rem;
+}
+
+.skills{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    gap: 30px;
+}
+
+.skill{
+    width: 250px;
+    height: 270px;
+    padding: 10px;
+    background-color: #6EACDA;
+    border-radius: 15px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+.logos{
+    width: 200px;
+}
+
+.Formacion-academica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;
+    gap: 30px;
+    background-color: var(--colorsegundario);
+
+}
+.contendor-formaciones{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.conten-form{
+    border: 1px solid white;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    color: #021526;
+}
+.img-formacion{
+    width: 250px;
+    height: 220px;
+}
+.experiencias{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    text-align: center;
+    
+}
+.contenedor-experiencia{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    border-bottom: #6EACDA 1px solid;
+    padding: 30px;
+
+}
+.boton{ 
+    background-color: #6EACDA;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.content-izq{
+    flex-direction: row-reverse;
+}
+.contenedor-imagenes{
+   display: flex;
+   padding: 20px;
+   gap: 10px;
+   border-radius: 8px;
+    background-color: #6EACDA;
+    border: 1px solid white;
+    min-width: 300px;
+    
+}
+.img-res{
+    max-width: 600px;
+    border-radius: 8px;
+    width: 100%;
+}
+.boton:hover{
+    background-color: #021526;
+    border: #03346E 1px solid;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--colorsegundario);
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+}
+.img-telefono{
+    width: 500px;
+    height: 500px;
+
+}
+.form{
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--colorsegundario);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    color: white;
+
+}
+.form label{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    height: 50px;
+}
+
+.form h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-mensaje{
+    height: 150px;
+
+}
+
+
+.boton-formulario{
+    padding: 10px;
+    background-color: #6EACDA;
+    color: white;
+    margin-top: 10px;
+
+}
+.boton-formulario:hover{
+    background-color: #021526;
+    border: #03346E 1px solid;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background-color);
+    color: white;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu li:nth-child(1),
+    .menu li:nth-child(2),
+    .menu li:nth-child(3),
+    .menu li:nth-child(4),
+    .menu li:nth-child(5) {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        font-size: 1rem;
+    }
+
+    .presentacion {
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .img-persona {
+        width: 300px;
+        height: 300px;
+    }
+
+    .descripcion {
+        width: 100%; 
+    }
+    .sobre-mi-info{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .skill{
+        width: 150px;
+        height: 150px;
+    }
+    .logos{
+        width: 100px;
+    }
+    .conten-form{
+        width: 240px;
+        height: 200px;
+    }
+    .img-formacion{
+        width: 150px;
+        height: 120px;
+    }
+    .img-telefono{
+        display: none;
+    }
+}
+
+@media (max-width: 541px) {
+    .presentacion{
+        flex-direction: column-reverse;
+        align-items: self-end   ;
+    }
+    .conten-form{
+        width: 300px;
+        height: 300px;
+    }
+    .img-formacion{
+        width: 250px;
+        height: 220px;
+    }
+    .logo-progrmain{
+        display: none;
+    }
+    .contenedor-experiencia{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+}
